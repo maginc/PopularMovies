@@ -1,5 +1,7 @@
 package com.example.user.popularmoviesstage1.model;
 
+import com.example.user.popularmoviesstage1.BuildConfig;
+
 /**
  * Created by Andris on 024 24.02.18.
  */
@@ -7,7 +9,7 @@ package com.example.user.popularmoviesstage1.model;
 public class Constants {
 
     //Write your own api key to run this app
-    public static final String API_KEY = "";
+    public static final String API_KEY = BuildConfig.API_KEY;
 
     public static final String API_BASE_URL = "http://api.themoviedb.org/3/";
     public static final String API_BASE_POSTER_URL = "http://image.tmdb.org/t/p/";

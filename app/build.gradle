@@ -4,11 +4,16 @@ android {
     compileSdkVersion 27
     defaultConfig {
         applicationId "com.example.user.popularmoviesstage1"
-        minSdkVersion 15
+        minSdkVersion 16
         targetSdkVersion 27
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+        // Please ensure you have a valid API KEY for themoviedb.org
+      //  to use this app
+        // A valid key will need to be entered
+        buildConfigField("String", "API_KEY", API_KEY)
     }
     buildTypes {
         release {
